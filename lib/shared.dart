@@ -37,13 +37,13 @@ class _SharedState extends State<Shared> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 183,
+      height: 210,
       child:ListView.builder(
         scrollDirection: Axis.horizontal,
         padding: EdgeInsets.zero,
         physics: const ClampingScrollPhysics(),
         shrinkWrap: true,
-        itemCount: articles.length,
+        itemCount:articles.length,
         itemBuilder: (context,index){
           return GestureDetector(
             onTap: (){
@@ -85,15 +85,15 @@ class _SharedTemplateState extends State<SharedTemplate> {
     return Padding(
       padding: const EdgeInsets.all(8.0),
       child: SizedBox(
-        width: 150,
+        width: 170,
         child: Column(
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(10),
               child: CachedNetworkImage(
                   imageUrl:widget.urlToImage,
-                  width: 150,
-                  height:100, fit:BoxFit.cover
+                  width: 160,
+                  height:120, fit:BoxFit.cover
               ),
             ),
             Text(widget.title,

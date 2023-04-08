@@ -29,6 +29,7 @@ class News{
               element['author']??"Unidentified Author",
               element['content']??element['description'],
               element['publishedAt']);
+          print(articleModel);
           dataSavedin.add(articleModel);
         }
       });

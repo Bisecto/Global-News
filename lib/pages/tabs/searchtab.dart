@@ -23,6 +23,7 @@ class _SearchState extends State<Search> {
     News news = News(Strings().fn+Category+Strings().sn);
     await news.getNews();
     articles = news.dataSavedin;
+    print(articles);
     if (articles != null) {
       setState(() {
         isLoaded = true;

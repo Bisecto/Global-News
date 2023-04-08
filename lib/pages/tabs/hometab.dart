@@ -78,20 +78,20 @@ class _HomeTabState extends State<HomeTab> {
 
                         },
                       ),
-                      const Align(
-                        alignment: Alignment.topLeft,
-                        child: Padding(
-                          padding: EdgeInsets.all(10.0),
-                          child: Text("Tesla News",
-                            textAlign: TextAlign.left,
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black,
-                              fontSize: 25,
-                            ),),
-                        ),
-                      ),
-                      Shared(Url: Strings().TeslaNews,),
+                      // const Align(
+                      //   alignment: Alignment.topLeft,
+                      //   child: Padding(
+                      //     padding: EdgeInsets.all(10.0),
+                      //     child: Text("Tesla News",
+                      //       textAlign: TextAlign.left,
+                      //       style: TextStyle(
+                      //         fontWeight: FontWeight.bold,
+                      //         color: Colors.black,
+                      //         fontSize: 25,
+                      //       ),),
+                      //   ),
+                      // ),
+                      // Shared(Url: Strings().TeslaNews,),
                       const Align(
                         alignment: Alignment.topLeft,
                         child: Padding(
